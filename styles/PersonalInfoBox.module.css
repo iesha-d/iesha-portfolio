@@ -1,0 +1,70 @@
+.nameInBox {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bio {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.headshot {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 75px;
+    background: no-repeat url("/silhouette.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.socialsIcons {
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.linkedIn {
+    margin-right: 5px;
+}
+.github {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.nameInFloat {
+    text-align: left;
+    margin-left: 14px;
+    flex-shrink: 2;
+    margin-right: calc(0.3 * vw);
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+@media (max-width: 400px) {
+    .nameInFloat {
+        font-size: 15px;
+    }
+}
+
+.floatDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.emptySpaceFloat {
+    flex-grow: 2;
+}
+
+.smallHeadshot {
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
