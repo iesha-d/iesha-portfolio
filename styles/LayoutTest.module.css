@@ -4,7 +4,9 @@
     position: fixed;
     height: 300px;
     top: calc(max(20px, 35vh - 100px));
-    left: calc((100vw - 600px - 300px) / 3);
+    /* left: calc((100vw - 600px - 300px) / 3); */
+    /* left: calc(50vw - 450px); */
+    left: calc(0.35 * (100vw - 950px));
 }
 
 @media (max-width: 950px) {
@@ -30,7 +32,9 @@
 @media (min-width: 950px) {
     .contentContainer {
         width: 600px;
-        margin-left: calc(2 * (100vw - 900px) / 3 + 300px);
+        /* margin-left: calc(2 * (100vw - 900px) / 3 + 300px); */
+        /* margin-left: calc(50vw - 100px); */
+        margin-left: calc(0.35 * (100vw - 950px) + 350px);
         min-height: 100vh;
     }
 }
@@ -50,7 +54,9 @@
     position: static;
 }
 
-
+.topGap {
+    margin-top: 6vh;
+}
 
 
 .contentContainer p {
