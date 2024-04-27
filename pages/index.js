@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import styles from '../styles/LayoutTest.module.css';
 import { useState } from 'react';
 import {
@@ -39,6 +40,11 @@ export default function Home() {
                 </p>
                 <p className={styles.about}> 
                     Glenelg High School Class of 2024, future CS undergrad.
+                </p>
+                <p>
+                    <Link href="/research">
+                        Senior Year Research Project
+                    </Link>
                 </p>
                 <h2 className={styles.topGap}>Projects & GitHub</h2>
                 <PortfolioItem
