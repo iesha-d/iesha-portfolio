@@ -1,0 +1,12 @@
+.imageCaptionContainer {
+  text-align: center;
+}
+
+.imageCaptionContainer img {
+  width: 150px;
+  height: auto; /* maintains aspect ratio */
+}
+
+.imageCaptionContainer p {
+  font-style: italic;
+}
